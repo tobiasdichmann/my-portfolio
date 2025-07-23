@@ -1,0 +1,129 @@
+@import "./variables/fonts";
+@import "./variables/colors";
+
+#projects {
+  padding: 100px 200px;
+  font-family: $main-font;
+
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .divider {
+    height: 6px;
+    width: 35px;
+    margin: 20px auto;
+    background-color: $main-color;
+    border-radius: 100px;
+  }
+
+  p {
+    padding-bottom: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .project {
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .project-txt {
+      align-self: center;
+
+      h4 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding: 40px 0;
+        font-size: 1.2rem;
+        text-align: left;
+      }
+
+      button {
+        padding: 15px 40px;
+        color: white;
+        background-color: $main-color;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $main-color-hover;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #projects {
+    padding: 100px 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #projects {
+    padding: 50px 10px;
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    .divider {
+      height: 6px;
+      width: 35px;
+      margin: 10px auto;
+      background-color: $main-color;
+      border-radius: 100px;
+    }
+
+    p {
+      padding-bottom: 50px;
+      font-size: 1rem;
+    }
+
+    .project {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, auto);
+
+      .project-txt {
+        padding-right: 0;
+        text-align: center;
+
+        h4 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          padding: 20px 0;
+          font-size: 1rem;
+          text-align: center;
+        }
+
+        button {
+          padding: 10px 30px;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

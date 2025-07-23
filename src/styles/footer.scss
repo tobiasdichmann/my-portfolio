@@ -1,0 +1,22 @@
+@import "./variables/fonts";
+
+#footer {
+  padding: 50px 0;
+  color: white;
+  background-color: black;
+  font: {
+    size: 1rem;
+    family: $main-font;
+  }
+  text-align: center;
+
+  a {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,272 @@
+@import "./variables/fonts";
+
+.desktop-menu {
+  height: 10dvh;
+  width: 100%;
+  padding: 0 50px;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 1px 10px rgb(50, 50, 50);
+  z-index: 2;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .download-page {
+    width: 35px;
+    padding: 5px;
+    margin-left: -17px;
+    color: rgb(85, 85, 85);
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 5px 5px rgb(50, 50, 50);
+
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+
+    &:hover {
+      color: #a5a5a5;
+    }
+  }
+
+  a {
+    font: {
+      size: 1rem;
+      family: $main-font;
+    }
+    text-decoration: none;
+
+    display: inline;
+
+    .logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      h2 {
+        padding-left: 10px;
+        color: black;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 50px;
+      list-style-type: none;
+
+      &:nth-last-of-type(1) {
+        margin: 0;
+      }
+
+      a {
+        color: black;
+        font: {
+          size: 1rem;
+          family: $main-font;
+          weight: 600;
+        }
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+
+        &:hover {
+          color: black;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #000;
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+        }
+
+        &:hover::before {
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+
+  .burger-icon {
+    display: none;
+  }
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .desktop-menu {
+    padding: 0 25px;
+
+    ul {
+      display: none;
+    }
+
+    .burger-icon {
+      font-size: 1.5rem;
+      cursor: pointer;
+
+      display: block;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+
+  @keyframes burger-menu-show {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .burger-menu.active {
+    height: 100dvh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    animation: burger-menu-show 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+      text-align: center;
+      text-transform: uppercase;
+
+      .cross-icon {
+        color: black;
+        font-size: 1.5rem;
+        cursor: pointer;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+
+        &:hover {
+          color: gray;
+        }
+      }
+
+      @keyframes burger-list-show {
+        0% {
+          position: relative;
+          top: 20px;
+        }
+        100% {
+          position: relative;
+          top: 0;
+        }
+      }
+
+      li {
+        line-height: 60px;
+        list-style: none;
+        animation: burger-list-show 0.5s;
+
+        a {
+          color: black;
+          font-size: 2rem;
+          text-align: right;
+          text-decoration: none;
+          transition-duration: 0.3s;
+
+          &:hover {
+            color: gray;
+          }
+        }
+      }
+
+      .linkedin {
+        padding: 8px 8px 0 8px;
+        color: white;
+        background-color: #0467c4;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        transition: color 0.3s;
+        animation: burger-list-show 0.5s;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .desktop-menu {
+    a {
+      font-size: 0.8rem;
+
+      .logo {
+        img {
+          height: 40px;
+          width: 40px;
+        }
+
+        h2 {
+          padding-left: 6px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .desktop-menu {
+    padding: 0 10px;
+
+    a {
+      font-size: 0.6rem;
+
+      .logo {
+        img {
+          height: 30px;
+          width: 30px;
+        }
+
+        h2 {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  .burger-menu.active {
+    ul {
+      .cross-icon {
+        top: 30px;
+        right: 26px;
+      }
+    }
+  }
+}
