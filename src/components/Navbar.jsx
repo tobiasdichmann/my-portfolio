@@ -22,7 +22,12 @@ const Navbar = () => {
   return (
     <>
       <nav className="desktop-menu">
-        <a className="download-page" href={myPortfolio} download>
+        <a
+          className="download-page"
+          href={myPortfolio}
+          title="Download hjemmeside"
+          download
+        >
           <GrDocumentDownload />
         </a>
         <a href="#home">
