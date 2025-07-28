@@ -25,8 +25,8 @@ const Projects = () => {
           <h4>Customize PLUS Simonsen</h4>
 
           <p>
-            Jeg har alene siddet og vedligeholdt denne hjemmeside for Customize
-            PLUS Simonsen, da jeg var i et praktikforløb hos dem.
+            Jeg har alene vedligeholdt denne hjemmeside for Customize PLUS
+            Simonsen, da jeg var i et praktikforløb hos dem.
           </p>
 
           <a href="https://c-ps.dk/" target="_blank">
