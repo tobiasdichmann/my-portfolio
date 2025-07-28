@@ -34,16 +34,15 @@ const About = () => {
           <div className="skills">
             <div>HTML</div>
             <div>CSS / SCSS</div>
+            <div>Bootstrap</div>
+            <div>Tailwind CSS</div>
             <div>JavaScript</div>
             <div>React.js</div>
             <div>EmailJS</div>
-            <div>Responsiv</div>
             <div>FileZilla</div>
             <div>TinyPNG</div>
             <div>VS Code</div>
             <div>Shopify</div>
-            <div>W3Schools.com</div>
-            <div>Stackoverflow.com</div>
           </div>
         </div>
       </div>
