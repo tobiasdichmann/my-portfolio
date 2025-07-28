@@ -25,7 +25,7 @@ const Education = () => {
         {/* Customize PLUS Simonsen */}
         <div className="container right">
           <img src={customizePlusSimonsen} alt="FK Distribution's Logo" />
-          <div className="content work">
+          <div className="content">
             <h4>Customize PLUS Simonsen, Randers</h4>
             <h5>April 2025 - Juli 2025</h5>
             <p>
@@ -43,7 +43,7 @@ const Education = () => {
         {/* Viden Djurs */}
         <div className="container left">
           <img src={videnDjurs} alt="Viden Djurs's Logo" />
-          <div className="content">
+          <div className="content education">
             <h4>Viden Djurs, Grenaa</h4>
             <h5>August 2021 - Oktober 2022</h5>
             <p>
@@ -67,7 +67,7 @@ const Education = () => {
         {/* Aarhus Tech, Grundforløb 2 */}
         <div className="container right">
           <img src={aarhusTech} alt="Aarhus Tech's Logo" />
-          <div className="content">
+          <div className="content education">
             <h4>Aarhus Tech, Aarhus N</h4>
             <h5>Januar 2021 - Juni 2021</h5>
             <p>
@@ -85,7 +85,7 @@ const Education = () => {
         {/* Aarhus Tech, Grundforløb 1 */}
         <div className="container left">
           <img src={aarhusTech} alt="Aarhus Tech's Logo" />
-          <div className="content">
+          <div className="content education">
             <h4>Aarhus Tech, Viby J</h4>
             <h5>August 2020 - Januar 2021</h5>
             <p>
@@ -110,7 +110,7 @@ const Education = () => {
             src={himmerlandsUngdomsskole}
             alt="Himmerlands Ungdomsskole's Logo"
           />
-          <div className="content">
+          <div className="content education">
             <h4>Himmerlands Ungdomsskole, Aars</h4>
             <h5>August 2019 - Juni 2020</h5>
             <p>
@@ -129,7 +129,7 @@ const Education = () => {
         {/* Djurs Sommerland */}
         <div className="container left">
           <img src={djursSommerland} alt="Djurs Sommerland's Logo" />
-          <div className="content work">
+          <div className="content">
             <h4>Djurs Sommerland, Nimtofte</h4>
             <h5>Maj 2019 - Oktober 2021</h5>
             <p>
@@ -148,7 +148,7 @@ const Education = () => {
         {/* Fitness World */}
         <div className="container right">
           <img src={fitnessWorld} alt="Fitness World's Logo" />
-          <div className="content work">
+          <div className="content">
             <h4>Fitness World, Randers</h4>
             <h5>August 2018 - Juni 2019</h5>
             <p>
@@ -166,7 +166,7 @@ const Education = () => {
         {/* Randers Freja Atletik */}
         <div className="container left">
           <img src={randersFreja} alt="Randers Freja Atletik's Logo" />
-          <div className="content work">
+          <div className="content">
             <h4>Randers Freja Atletik, Randers</h4>
             <h5>August 2017 - Juni 2019</h5>
             <p>
@@ -186,7 +186,7 @@ const Education = () => {
         {/* FK Distribution */}
         <div className="container right">
           <img src={fkDistribution} alt="FK Distribution's Logo" />
-          <div className="content work">
+          <div className="content">
             <h4>FK Distribution, Randers</h4>
             <h5>April 2016 - Marts 2018</h5>
             <p>
@@ -206,7 +206,7 @@ const Education = () => {
         {/* C. la Cours Skole */}
         <div className="container left">
           <img src={cLaCoursSkole} alt="C. la Cours Skole's Logo" />
-          <div className="content">
+          <div className="content education">
             <h4>C. la Cours Skole, Randers</h4>
             <h5>August 2009 - Juni 2019</h5>
             <p>
