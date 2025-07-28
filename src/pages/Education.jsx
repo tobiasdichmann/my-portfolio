@@ -19,7 +19,7 @@ const Education = () => {
 
       <div className="divider"></div>
 
-      <p>Her er et lille indblik i min rejse mod at blive webudvikler</p>
+      <p>Her er et lille indblik i min rejse mod at blive webudvikler</p> 
 
       <div className="timeline">
         {/* Customize PLUS Simonsen */}
@@ -39,7 +39,7 @@ const Education = () => {
             <span className="right-arrow"></span>
           </div>
         </div>
-        
+
         {/* Viden Djurs */}
         <div className="container left">
           <img src={videnDjurs} alt="Viden Djurs's Logo" />
