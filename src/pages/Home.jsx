@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/home.scss";
 
 // IMAGES
-import banner from "../img/banner.png";
+import heroDesktop from "../img/hero_desktop.jpg";
+import heroResponsive from "../img/hero_responsive.jpg";
 
 // ICONS
 import { FaArrowDown, FaLinkedinIn } from "react-icons/fa";
@@ -11,9 +12,15 @@ const Home = () => {
   return (
     <div id="home">
       <img
-        src={banner}
-        className="banner"
+        src={heroDesktop}
+        className="hero-desktop"
         alt="Image of a laptop running code, in an office"
+      />
+
+      <img
+        src={heroResponsive}
+        className="hero-responsive"
+        alt="Image of a pc running code, in an office"
       />
 
       <div className="intro">

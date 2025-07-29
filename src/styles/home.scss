@@ -4,13 +4,17 @@
 #home {
   display: grid;
 
-  .banner {
+  .hero-desktop {
     height: 100dvh;
     width: 100%;
     object-fit: cover;
 
     grid-column: 1/-1;
     grid-row: 1/-1;
+  }
+
+  .hero-responsive {
+    display: none;
   }
 
   .intro {
@@ -114,6 +118,16 @@
 
 @media screen and (max-width: 800px) {
   #home {
+    .hero-responsive {
+      height: 100dvh;
+      width: 100%;
+      object-fit: cover;
+
+      display: block;
+      grid-column: 1/-1;
+      grid-row: 1/-1;
+    }
+
     .intro {
       padding: 20px 10px;
 
