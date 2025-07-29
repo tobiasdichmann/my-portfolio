@@ -118,6 +118,10 @@
 
 @media screen and (max-width: 800px) {
   #home {
+    .hero-desktop {
+      display: none;
+    }
+
     .hero-responsive {
       height: 100dvh;
       width: 100%;
