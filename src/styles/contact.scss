@@ -71,11 +71,13 @@
       border-radius: 5px;
       text-transform: uppercase;
       cursor: pointer;
+      transition: background-color 0.4s, letter-spacing 0.4s;
 
       justify-self: end;
 
       &:hover {
         background-color: $main-color-hover;
+        letter-spacing: 5px;
       }
     }
   }

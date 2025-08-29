@@ -58,10 +58,11 @@
         border-radius: 5px;
         text-transform: uppercase;
         cursor: pointer;
-        transition: letter-spacing 0.4s;
+        transition: background-color 0.4s, letter-spacing 0.4s;
 
         &:hover {
           background-color: $main-color-hover;
+          letter-spacing: 8px;
         }
       }
     }
