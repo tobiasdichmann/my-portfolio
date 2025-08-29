@@ -10,7 +10,7 @@ import djursSommerland from "../img/work/djurs-sommerland.png";
 import himmerlandsUngdomsskole from "../img/education/h-u.png";
 import aarhusTech from "../img/education/aarhus-tech.png";
 import videnDjurs from "../img/education/viden-djurs.png";
-import customizePlusSimonsen from '../img/work/customize-plus-simonsen.png';
+import customizePlusSimonsen from "../img/work/customize-plus-simonsen.png";
 
 const Education = () => {
   return (
@@ -34,6 +34,7 @@ const Education = () => {
               <ul>
                 <li>Opdatering af produktliste</li>
                 <li>Opdatering / Vedligeholdelse af hjemmeside</li>
+                <li>Assisterende UX/UI designer på Studietøj.dk</li>
               </ul>
             </p>
             <span className="right-arrow"></span>
@@ -103,7 +104,7 @@ const Education = () => {
             <span className="left-arrow"></span>
           </div>
         </div>
-        
+
         {/* Himmerlands Ungdomsskole */}
         <div className="container right">
           <img
