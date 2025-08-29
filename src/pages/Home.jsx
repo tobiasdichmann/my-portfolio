@@ -6,7 +6,7 @@ import heroDesktop from "../img/hero_desktop.jpg";
 import heroResponsive from "../img/hero_responsive.jpg";
 
 // ICONS
-import { FaArrowDown, FaLinkedinIn } from "react-icons/fa";
+import { FaArrowDown, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -37,13 +37,23 @@ const Home = () => {
         <FaArrowDown />
       </a>
 
-      <a
-        href="https://www.linkedin.com/in/tobias-skak-dichmann-4a3116208"
-        className="linkedin"
-        target="_blank"
-      >
-        <FaLinkedinIn />
-      </a>
+      <div className="socials">
+        <a
+          href="https://github.com/tobiasdichmann"
+          className="github"
+          target="_blank"
+        >
+          <FaGithub />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/tobias-skak-dichmann-4a3116208"
+          className="linkedin"
+          target="_blank"
+        >
+          <FaLinkedinIn />
+        </a>
+      </div>
     </div>
   );
 };
