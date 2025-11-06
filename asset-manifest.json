@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.c7421b3b.css",
+    "main.js": "/my-portfolio/static/js/main.0d5d7690.js",
+    "static/media/my-portrait.jpg": "/my-portfolio/static/media/my-portrait.40983d716508ddbe60fa.jpg",
+    "static/media/my-portfolio.pdf": "/my-portfolio/static/media/my-portfolio.4d084b22f18e157653b3.pdf",
+    "static/media/hero_responsive.jpg": "/my-portfolio/static/media/hero_responsive.b18076e0dddefddb363d.jpg",
+    "static/media/tune-it_complete.png": "/my-portfolio/static/media/tune-it_complete.5f7ac9ae39275ce7a1f6.png",
+    "static/media/studietøj_complete.png": "/my-portfolio/static/media/studietøj_complete.739cd9ba58203698f4d4.png",
+    "static/media/hero_desktop.jpg": "/my-portfolio/static/media/hero_desktop.2be886b29c32ddbcf978.jpg",
+    "static/media/customize-plus-simonsen_complete.png": "/my-portfolio/static/media/customize-plus-simonsen_complete.dee7d1eb273c5c5f6e79.png",
+    "static/media/randers-freja.png": "/my-portfolio/static/media/randers-freja.9ca64637a745158dac55.png",
+    "static/media/fk-distribution.png": "/my-portfolio/static/media/fk-distribution.53e575b0b0f06c02e0d6.png",
+    "static/media/aarhus-tech.png": "/my-portfolio/static/media/aarhus-tech.9cdde4599d490fdc70ab.png",
+    "static/media/customize-plus-simonsen.png": "/my-portfolio/static/media/customize-plus-simonsen.ed719668b30faf02056c.png",
+    "static/media/djurs-sommerland.png": "/my-portfolio/static/media/djurs-sommerland.778e0051090076818d30.png",
+    "static/media/viden-djurs.png": "/my-portfolio/static/media/viden-djurs.5ed6954fb927c23291df.png",
+    "static/media/fitness-world.png": "/my-portfolio/static/media/fitness-world.96335119d669216d6312.png",
+    "static/media/la-cours.png": "/my-portfolio/static/media/la-cours.17d10b1110f21b7e73de.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.c7421b3b.css.map": "/my-portfolio/static/css/main.c7421b3b.css.map",
+    "main.0d5d7690.js.map": "/my-portfolio/static/js/main.0d5d7690.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7421b3b.css",
+    "static/js/main.0d5d7690.js"
+  ]
+}
