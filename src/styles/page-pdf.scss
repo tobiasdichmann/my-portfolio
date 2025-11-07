@@ -1,0 +1,40 @@
+@import "./variables/colors";
+
+.page-pdf-btn {
+  padding: 10px;
+  color: white;
+  background-color: $main-color;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  transition: background-color 0.4s;
+
+  &:hover {
+    background-color: $main-color-hover;
+  }
+}
+
+/* In a separate CSS file or a <style> tag */
+@media print {
+  /* Hide elements you don't want in the PDF (e.g., navigations, ads) */
+  .no-print,
+  nav,
+  footer {
+    display: none !important;
+  }
+  /* Ensure text is black and background is white for clean printing */
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  /* Force elements to render fully, avoiding cut-off content */
+  * {
+    page-break-inside: avoid;
+  }
+}

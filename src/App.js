@@ -1,6 +1,8 @@
 import "./styles/app.scss";
+import "./styles/page-pdf.scss";
 
 // COMPONENTS
+import PagePDF from "./components/PagePDF";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -13,7 +15,11 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
+    <div id="websiteContent">
+      <PagePDF
+        rootElementId={"websiteContent"}
+        downloadFileName={"tobias-portfolio.pdf"}
+      />
       <Navbar />
 
       <Home />
@@ -23,7 +29,7 @@ function App() {
       <Contact />
 
       <Footer />
-    </>
+    </div>
   );
 }
 
