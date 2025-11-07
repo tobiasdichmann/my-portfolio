@@ -58,7 +58,8 @@ const PagePDF = ({ rootElementId, downloadFileName }) => {
       onClick={handleDownloadPdf}
       title="Tager ca. 5 sek."
     >
-      <FaFileDownload /> Download Website PDF
+      <FaFileDownload /> Download Website PDF <br />
+      <i>Kun på PC</i>
     </button>
   );
 };
