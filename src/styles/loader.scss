@@ -13,11 +13,11 @@
 
 .loader-pulse {
   /* Core Element (The static center dot) */
-  width: 10px; // Making the center dot smaller
   height: 10px;
+  width: 10px; // Making the center dot smaller
   margin-right: 3px;
-  border-radius: 50%;
   background-color: white;
+  border-radius: 50%;
 
   /* Necessary to position the pseudo-element relative to this center */
   position: relative;
@@ -25,17 +25,15 @@
 
   &::after {
     content: "";
+    /* Make the pulse the same size/color initially */
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+    animation: pulse 1.5s ease-out infinite;
+
     position: absolute;
     top: 0;
     left: 0;
-
-    /* Make the pulse the same size/color initially */
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    border-radius: 50%;
-
-    /* Apply the animation! */
-    animation: pulse 1.5s ease-out infinite;
   }
 }
