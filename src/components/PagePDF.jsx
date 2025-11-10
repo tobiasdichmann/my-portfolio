@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import "../styles/loader.scss";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+
+// COMPONENTS
+import Loader from "./Loader";
 
 // ICONS
 import { FaFileDownload } from "react-icons/fa";
 
 const PagePDF = ({ rootElementId, downloadFileName }) => {
+  const [isGenerating, setIsGenerating] = useState(false);
+
   const handleDownloadPdf = async () => {
+    setIsGenerating(true); // 👈 Show the loader
+    console.log("Loading started. isGenerating:", true); // 👈 Add this line
     // 1. Get the HTML element you want to convert
     const input = document.getElementById(rootElementId);
     if (!input) {
       console.error(`Element with ID: ${rootElementId} not found.`);
       return;
     }
-
-    // Optional: Add a brief loading/feedback state here
 
     // 2. Convert the HTML element to a canvas image
     const canvas = await html2canvas(input, {
@@ -50,17 +56,25 @@ const PagePDF = ({ rootElementId, downloadFileName }) => {
 
     // 6. Save the PDF file
     pdf.save(downloadFileName);
+
+    setIsGenerating(false); // 👈 Hide the loader when done
+    console.log("Loading ended. isGenerating:", false); // 👈 Add this line
   };
 
   return (
-    <button
-      className="page-pdf-btn"
-      onClick={handleDownloadPdf}
-      title="Tager ca. 5 sek."
-    >
-      <FaFileDownload /> Download Website PDF <br />
-      <i>Kun på PC</i>
-    </button>
+    <>
+      <button className="page-pdf-btn" onClick={handleDownloadPdf}>
+        {isGenerating ? (
+          <Loader isLoading={true} />
+        ) : (
+          <FaFileDownload className="download-logo" />
+        )}
+        <p>
+          Download Website PDF <br />
+          <i>Kun på PC</i>
+        </p>
+      </button>
+    </>
   );
 };
 

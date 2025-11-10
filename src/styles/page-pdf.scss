@@ -16,8 +16,18 @@
   z-index: 3;
   transition: background-color 0.4s;
 
+  display: flex;
+  align-items: center;
+
   &:hover {
     background-color: $main-color-hover;
+  }
+
+  .download-logo {
+    margin-right: 3px;
+
+    position: relative;
+    bottom: 6px;
   }
 
   i {
