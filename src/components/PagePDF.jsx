@@ -69,10 +69,10 @@ const PagePDF = ({ rootElementId, downloadFileName }) => {
         ) : (
           <FaFileDownload className="download-logo" />
         )}
-        <p>
-          Download Website PDF <br />
+        <div>
+          <p>Download Website PDF</p>
           <i>Kun på PC</i>
-        </p>
+        </div>
       </button>
     </>
   );

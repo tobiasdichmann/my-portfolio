@@ -21,7 +21,6 @@
 
   /* Necessary to position the pseudo-element relative to this center */
   position: relative;
-  bottom: 6px;
 
   &::after {
     content: "";
