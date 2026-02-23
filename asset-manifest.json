@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e083431.css",
-    "main.js": "/static/js/main.743015e0.js",
+    "main.css": "/static/css/main.74703710.css",
+    "main.js": "/static/js/main.7bde46a0.js",
     "static/js/977.cdd3cb44.chunk.js": "/static/js/977.cdd3cb44.chunk.js",
     "static/js/732.ba1b1d7c.chunk.js": "/static/js/732.ba1b1d7c.chunk.js",
     "static/media/my-portrait.jpg": "/static/media/my-portrait.40983d716508ddbe60fa.jpg",
+    "static/media/tune-it.png": "/static/media/tune-it.ec3658994198efa331ff.png",
+    "static/media/studietoej.png": "/static/media/studietoej.65ba3051b793755cdd09.png",
+    "static/media/customize-plus-simonsen.png": "/static/media/customize-plus-simonsen.ed719668b30faf02056c.png",
     "static/media/hero_responsive.jpg": "/static/media/hero_responsive.b18076e0dddefddb363d.jpg",
-    "static/media/tune-it_complete.png": "/static/media/tune-it_complete.5f7ac9ae39275ce7a1f6.png",
-    "static/media/studietøj_complete.png": "/static/media/studietøj_complete.739cd9ba58203698f4d4.png",
     "static/media/hero_desktop.jpg": "/static/media/hero_desktop.2be886b29c32ddbcf978.jpg",
-    "static/media/customize-plus-simonsen_complete.png": "/static/media/customize-plus-simonsen_complete.dee7d1eb273c5c5f6e79.png",
     "static/media/randers-freja.png": "/static/media/randers-freja.9ca64637a745158dac55.png",
     "static/media/fk-distribution.png": "/static/media/fk-distribution.53e575b0b0f06c02e0d6.png",
     "static/media/aarhus-tech.png": "/static/media/aarhus-tech.9cdde4599d490fdc70ab.png",
-    "static/media/customize-plus-simonsen.png": "/static/media/customize-plus-simonsen.ed719668b30faf02056c.png",
     "static/media/djurs-sommerland.png": "/static/media/djurs-sommerland.778e0051090076818d30.png",
     "static/media/viden-djurs.png": "/static/media/viden-djurs.5ed6954fb927c23291df.png",
     "static/media/fitness-world.png": "/static/media/fitness-world.96335119d669216d6312.png",
     "static/media/la-cours.png": "/static/media/la-cours.17d10b1110f21b7e73de.png",
     "index.html": "/index.html",
-    "main.0e083431.css.map": "/static/css/main.0e083431.css.map",
-    "main.743015e0.js.map": "/static/js/main.743015e0.js.map",
+    "main.74703710.css.map": "/static/css/main.74703710.css.map",
+    "main.7bde46a0.js.map": "/static/js/main.7bde46a0.js.map",
     "977.cdd3cb44.chunk.js.map": "/static/js/977.cdd3cb44.chunk.js.map",
     "732.ba1b1d7c.chunk.js.map": "/static/js/732.ba1b1d7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e083431.css",
-    "static/js/main.743015e0.js"
+    "static/css/main.74703710.css",
+    "static/js/main.7bde46a0.js"
   ]
 }
