@@ -2,83 +2,84 @@ import React from "react";
 import "../styles/projects.scss";
 
 // IMAGES
-import customizePlusSimonsenLaptop from "../img/projects/customize-plus-simonsen/customize-plus-simonsen_complete.png";
-import studietøjLaptop from "../img/projects/studietøj/studietøj_complete.png";
-import tuneItLaptop from "../img/projects/tune-it/tune-it_complete.png";
+import customizePlusSimonsen from "../img/projects/customize-plus-simonsen.png";
+import studietoej from "../img/projects/studietoej.png";
+import tuneIt from "../img/projects/tune-it.png";
 
 // ICONS
-import { TbExternalLink } from "react-icons/tb";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id='projects'>
       <h3>Projekter</h3>
 
-      <div className="divider"></div>
+      <div className='divider'></div>
 
       <p>Her ser du de projekter, jeg har fået lavet igennem tiden</p>
 
-      {/* Customize PLUS Simonsen */}
-      <div className="project">
-        <img
-          src={customizePlusSimonsenLaptop}
-          alt="Image of Customize PLUS Simonsen's website"
-        />
+      <div className='projects'>
+        {/* Customize Plus Simonsen */}
+        <div className='project'>
+          <div className='project-img'>
+            <img src={customizePlusSimonsen} alt='Customize Plus Simonsen' />
+          </div>
 
-        <div className="project-txt">
-          <h4>Customize PLUS Simonsen</h4>
-
-          <p>
-            Jeg har været med til at vedligeholde denne hjemmeside for Customize
-            PLUS Simonsen. Jeg har hovedsageligt opdateret deres produkter som
-            vises på siden
-          </p>
-
-          <a href="https://c-ps.dk/" target="_blank">
+          <div className='project-info'>
+            <h4>Customize Plus Simonsen</h4>
+            <p>Shopify, HTML, CSS</p>
             <button>
-              Se siden her <TbExternalLink />
+              <a
+                href='https://c-ps.dk/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Se siden her <GoArrowUpRight />
+              </a>
             </button>
-          </a>
+          </div>
         </div>
-      </div>
 
-      {/* Studietøj */}
-      <div className="project">
-        <img src={studietøjLaptop} alt="Image of Studietøj's website" />
+        {/* Studietøj */}
+        <div className='project'>
+          <div className='project-img'>
+            <img src={studietoej} alt='Studietoej' />
+          </div>
 
-        <div className="project-txt">
-          <h4>Studietøj</h4>
-
-          <p>
-            Jeg har været med som assisterende UX/UI designer på Studietøj.dk.
-            Jeg har hovedsageligt hjulpet med bestillingsprocessen
-          </p>
-
-          <a href="https://studietoej.dk/" target="_blank">
+          <div className='project-info'>
+            <h4>Studietøj</h4>
+            <p>UI/UX</p>
             <button>
-              Se siden her <TbExternalLink />
+              <a
+                href='https://studietoej.dk/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Se siden her <GoArrowUpRight />
+              </a>
             </button>
-          </a>
+          </div>
         </div>
-      </div>
 
-      {/* Tune It */}
-      <div className="project">
-        <img src={tuneItLaptop} alt="Image of Tune It's website" />
+        {/* Tune It */}
+        <div className='project'>
+          <div className='project-img'>
+            <img src={tuneIt} alt='Tune It' />
+          </div>
 
-        <div className="project-txt">
-          <h4>Tune It</h4>
-
-          <p>
-            Jeg har lavet denne hjemmeside for det randrusianske a cappella-kor
-            Tune It
-          </p>
-
-          <a href="https://www.tune-it.dk/" target="_blank">
+          <div className='project-info'>
+            <h4>Tune It</h4>
+            <p>React, HTML, SCSS, JavaScript</p>
             <button>
-              Se siden her <TbExternalLink />
+              <a
+                href='https://www.tune-it.dk/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Se siden her <GoArrowUpRight />
+              </a>
             </button>
-          </a>
+          </div>
         </div>
       </div>
     </div>
