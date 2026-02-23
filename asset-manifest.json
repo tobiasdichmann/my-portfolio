@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.20fa2126.css",
+    "main.css": "/static/css/main.b716ca4c.css",
     "main.js": "/static/js/main.b92ddea2.js",
     "static/js/977.cdd3cb44.chunk.js": "/static/js/977.cdd3cb44.chunk.js",
     "static/js/732.ba1b1d7c.chunk.js": "/static/js/732.ba1b1d7c.chunk.js",
@@ -18,13 +18,13 @@
     "static/media/fitness-world.png": "/static/media/fitness-world.96335119d669216d6312.png",
     "static/media/la-cours.png": "/static/media/la-cours.17d10b1110f21b7e73de.png",
     "index.html": "/index.html",
-    "main.20fa2126.css.map": "/static/css/main.20fa2126.css.map",
+    "main.b716ca4c.css.map": "/static/css/main.b716ca4c.css.map",
     "main.b92ddea2.js.map": "/static/js/main.b92ddea2.js.map",
     "977.cdd3cb44.chunk.js.map": "/static/js/977.cdd3cb44.chunk.js.map",
     "732.ba1b1d7c.chunk.js.map": "/static/js/732.ba1b1d7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20fa2126.css",
+    "static/css/main.b716ca4c.css",
     "static/js/main.b92ddea2.js"
   ]
 }
