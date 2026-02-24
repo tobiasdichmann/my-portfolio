@@ -18,8 +18,8 @@ const About = () => {
             Jeg er <b>uddannet webudvikler</b> med fokus på <b>frontend</b>.
             <br />
             Jeg koder hovedsageligt i <b>React.js</b> og med <b>SCSS</b> til
-            styling. I min fritid kan jeg godt lide at være sammen med mine
-            <b>venner</b>, spille <b>trommer</b> og ellers bare slappe af foran
+            styling. I min fritid kan jeg godt lide at være sammen med mine{" "}
+            <b>venner</b>, spille <b>trommer</b> og ellers bare slappe af foran{" "}
             <b>computeren</b>
           </p>
 
