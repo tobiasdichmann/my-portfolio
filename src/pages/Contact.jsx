@@ -9,6 +9,28 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Custom Validation
+    const nameInput = form.current.elements["user_name"];
+    const emailInput = form.current.elements["user_email"];
+    const messageInput = form.current.elements["message"];
+
+    if (
+      nameInput.validity.valueMissing ||
+      emailInput.validity.valueMissing ||
+      messageInput.validity.valueMissing
+    ) {
+      setStatusMessage("Udfyld venligst alle påkrævede felter.");
+      setIsError(true);
+      return;
+    }
+
+    if (emailInput.validity.typeMismatch) {
+      setStatusMessage("Udfyld venligst en gyldig email.");
+      setIsError(true);
+      return;
+    }
+
     setStatusMessage("Sender besked...");
     setIsError(false);
 
@@ -48,8 +70,10 @@ const Contact = () => {
         tilbage hurtigst muligt
       </p>
 
-      <form ref={form} onSubmit={sendEmail}>
-        <label htmlFor='name'>Navn</label>
+      <form ref={form} onSubmit={sendEmail} noValidate>
+        <label htmlFor='name'>
+          Navn <span className='required'>*</span>
+        </label>
         <input
           type='text'
           name='user_name'
@@ -57,7 +81,9 @@ const Contact = () => {
           placeholder='Skriv dit navn'
           required
         />
-        <label htmlFor='email'>Email</label>
+        <label htmlFor='email'>
+          Email <span className='required'>*</span>
+        </label>
         <input
           type='email'
           name='user_email'
@@ -65,14 +91,16 @@ const Contact = () => {
           placeholder='Skriv din email'
           required
         />
-        <label htmlFor='message'>Besked</label>
+        <label htmlFor='message'>
+          Besked <span className='required'>*</span>
+        </label>
         <textarea
           name='message'
           id='message'
           placeholder='Skriv din besked'
           required
         />
-        <input type='submit' value='Send' required />
+        <input type='submit' value='Send' />
 
         {statusMessage && (
           <div className={`status-message ${isError ? "error" : "success"}`}>

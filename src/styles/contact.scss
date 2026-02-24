@@ -40,6 +40,12 @@
 
     label {
       font-size: 1.2rem;
+
+      .required {
+        color: #d9534f;
+        margin-left: 2px;
+        font-weight: bold;
+      }
     }
 
     input,
