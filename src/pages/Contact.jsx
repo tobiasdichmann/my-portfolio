@@ -67,7 +67,7 @@ const Contact = () => {
 
       <p>
         Du er altid velkommen til at udfylde formularen, så vil jeg vende
-        tilbage hurtigst muligt. hello world!
+        tilbage hurtigst muligt.
       </p>
 
       <form ref={form} onSubmit={sendEmail} noValidate>
