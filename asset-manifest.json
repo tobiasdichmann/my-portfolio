@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b716ca4c.css",
-    "main.js": "/static/js/main.b92ddea2.js",
+    "main.css": "/static/css/main.01b8fbce.css",
+    "main.js": "/static/js/main.47b820fe.js",
     "static/js/977.cdd3cb44.chunk.js": "/static/js/977.cdd3cb44.chunk.js",
     "static/js/732.ba1b1d7c.chunk.js": "/static/js/732.ba1b1d7c.chunk.js",
     "static/media/my-portrait.jpg": "/static/media/my-portrait.40983d716508ddbe60fa.jpg",
@@ -18,13 +18,13 @@
     "static/media/fitness-world.png": "/static/media/fitness-world.96335119d669216d6312.png",
     "static/media/la-cours.png": "/static/media/la-cours.17d10b1110f21b7e73de.png",
     "index.html": "/index.html",
-    "main.b716ca4c.css.map": "/static/css/main.b716ca4c.css.map",
-    "main.b92ddea2.js.map": "/static/js/main.b92ddea2.js.map",
+    "main.01b8fbce.css.map": "/static/css/main.01b8fbce.css.map",
+    "main.47b820fe.js.map": "/static/js/main.47b820fe.js.map",
     "977.cdd3cb44.chunk.js.map": "/static/js/977.cdd3cb44.chunk.js.map",
     "732.ba1b1d7c.chunk.js.map": "/static/js/732.ba1b1d7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b716ca4c.css",
-    "static/js/main.b92ddea2.js"
+    "static/css/main.01b8fbce.css",
+    "static/js/main.47b820fe.js"
   ]
 }
