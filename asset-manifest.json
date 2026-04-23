@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01b8fbce.css",
-    "main.js": "/static/js/main.91007838.js",
+    "main.css": "/static/css/main.64ece9f5.css",
+    "main.js": "/static/js/main.2643c44c.js",
     "static/js/977.cdd3cb44.chunk.js": "/static/js/977.cdd3cb44.chunk.js",
     "static/js/732.ba1b1d7c.chunk.js": "/static/js/732.ba1b1d7c.chunk.js",
     "static/media/my-portrait.jpg": "/static/media/my-portrait.40983d716508ddbe60fa.jpg",
@@ -10,6 +10,8 @@
     "static/media/customize-plus-simonsen.png": "/static/media/customize-plus-simonsen.ed719668b30faf02056c.png",
     "static/media/hero_responsive.jpg": "/static/media/hero_responsive.b18076e0dddefddb363d.jpg",
     "static/media/hero_desktop.jpg": "/static/media/hero_desktop.2be886b29c32ddbcf978.jpg",
+    "static/media/google-ai-professional-certificate.pdf": "/static/media/google-ai-professional-certificate.3da6b8f901e93e3fca58.pdf",
+    "static/media/google-ai-professional-certificate.png": "/static/media/google-ai-professional-certificate.75f481ce8e539918cea7.png",
     "static/media/randers-freja.png": "/static/media/randers-freja.9ca64637a745158dac55.png",
     "static/media/fk-distribution.png": "/static/media/fk-distribution.53e575b0b0f06c02e0d6.png",
     "static/media/aarhus-tech.png": "/static/media/aarhus-tech.9cdde4599d490fdc70ab.png",
@@ -18,13 +20,13 @@
     "static/media/fitness-world.png": "/static/media/fitness-world.96335119d669216d6312.png",
     "static/media/la-cours.png": "/static/media/la-cours.17d10b1110f21b7e73de.png",
     "index.html": "/index.html",
-    "main.01b8fbce.css.map": "/static/css/main.01b8fbce.css.map",
-    "main.91007838.js.map": "/static/js/main.91007838.js.map",
+    "main.64ece9f5.css.map": "/static/css/main.64ece9f5.css.map",
+    "main.2643c44c.js.map": "/static/js/main.2643c44c.js.map",
     "977.cdd3cb44.chunk.js.map": "/static/js/977.cdd3cb44.chunk.js.map",
     "732.ba1b1d7c.chunk.js.map": "/static/js/732.ba1b1d7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01b8fbce.css",
-    "static/js/main.91007838.js"
+    "static/css/main.64ece9f5.css",
+    "static/js/main.2643c44c.js"
   ]
 }
