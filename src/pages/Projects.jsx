@@ -34,7 +34,7 @@ const Projects = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Se siden her <GoArrowUpRight />
+                Se siden <GoArrowUpRight />
               </a>
             </button>
           </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Se siden her <GoArrowUpRight />
+                Se siden <GoArrowUpRight />
               </a>
             </button>
           </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Se siden her <GoArrowUpRight />
+                Se siden <GoArrowUpRight />
               </a>
             </button>
           </div>
