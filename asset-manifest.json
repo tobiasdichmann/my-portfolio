@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d5dd3c19.css",
-    "main.js": "/static/js/main.8b5651f7.js",
+    "main.js": "/static/js/main.3d1aa0db.js",
     "static/js/977.cdd3cb44.chunk.js": "/static/js/977.cdd3cb44.chunk.js",
     "static/js/732.ba1b1d7c.chunk.js": "/static/js/732.ba1b1d7c.chunk.js",
     "static/media/my-portrait.jpg": "/static/media/my-portrait.40983d716508ddbe60fa.jpg",
-    "static/media/tune-it.png": "/static/media/tune-it.ec3658994198efa331ff.png",
+    "static/media/tune-it.png": "/static/media/tune-it.094c64da86e39919c6c9.png",
     "static/media/studietoej.png": "/static/media/studietoej.65ba3051b793755cdd09.png",
     "static/media/customize-plus-simonsen.png": "/static/media/customize-plus-simonsen.ed719668b30faf02056c.png",
     "static/media/hero_responsive.jpg": "/static/media/hero_responsive.b18076e0dddefddb363d.jpg",
@@ -21,12 +21,12 @@
     "static/media/la-cours.png": "/static/media/la-cours.17d10b1110f21b7e73de.png",
     "index.html": "/index.html",
     "main.d5dd3c19.css.map": "/static/css/main.d5dd3c19.css.map",
-    "main.8b5651f7.js.map": "/static/js/main.8b5651f7.js.map",
+    "main.3d1aa0db.js.map": "/static/js/main.3d1aa0db.js.map",
     "977.cdd3cb44.chunk.js.map": "/static/js/977.cdd3cb44.chunk.js.map",
     "732.ba1b1d7c.chunk.js.map": "/static/js/732.ba1b1d7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5dd3c19.css",
-    "static/js/main.8b5651f7.js"
+    "static/js/main.3d1aa0db.js"
   ]
 }
