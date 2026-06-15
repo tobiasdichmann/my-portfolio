@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.scss";
+import { useTranslation } from "react-i18next";
 
 // IMAGES
 import heroDesktop from "../img/hero_desktop.jpg";
@@ -9,6 +10,8 @@ import heroResponsive from "../img/hero_responsive.jpg";
 import { FaArrowDown, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="home">
       <img
@@ -24,12 +27,12 @@ const Home = () => {
       />
 
       <div className="intro">
-        <h2>Hej, jeg er Tobias Skak Dichmann</h2>
+        <h2>{t('home.title')}</h2>
 
-        <p>Uddannet webudvikler med fokus på frontend</p>
+        <p>{t('home.subtitle')}</p>
 
         <a href="#projects">
-          <button>Projekter</button>
+          <button>{t('home.projects')}</button>
         </a>
       </div>
 
@@ -42,6 +45,7 @@ const Home = () => {
           href="https://github.com/tobiasdichmann"
           className="github"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithub />
         </a>
@@ -50,6 +54,7 @@ const Home = () => {
           href="https://www.linkedin.com/in/tobias-skak-dichmann-4a3116208"
           className="linkedin"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaLinkedinIn />
         </a>

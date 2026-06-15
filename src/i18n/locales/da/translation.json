@@ -1,0 +1,147 @@
+{
+  "navbar": {
+    "about": "Om",
+    "projects": "Projekter",
+    "certificates": "Certifikater",
+    "education": "Uddannelse & Erfaring",
+    "contact": "Kontakt",
+    "lang_toggle": "EN"
+  },
+  "home": {
+    "title": "Hej, jeg er Tobias Skak Dichmann",
+    "subtitle": "Uddannet webudvikler med fokus på frontend",
+    "projects": "Projekter"
+  },
+  "about": {
+    "title": "Om Mig",
+    "description": "Her kan du finde lidt information om, hvem jeg er, og hvad jeg kan",
+    "who_am_i": "Hvem er jeg?",
+    "intro_html": "Jeg er <b>uddannet webudvikler</b> med fokus på <b>frontend</b>.<br/>Jeg koder hovedsageligt i <b>React.js</b> og med <b>SCSS</b> til styling. I min fritid kan jeg godt lide at være sammen med mine <b>venner</b>, spille <b>trommer</b> og ellers bare slappe af foran <b>computeren</b>",
+    "contact": "Kontakt",
+    "skills": "Jeg har erfaring med:"
+  },
+  "projects": {
+    "title": "Projekter",
+    "description": "Her ser du de projekter, jeg har lavet / arbejdet på igennem tiden",
+    "customize_plus": {
+      "title": "Customize Plus Simonsen",
+      "tech": "Shopify, HTML, CSS"
+    },
+    "studietoej": {
+      "title": "Studietøj",
+      "tech": "UI/UX"
+    },
+    "tune_it": {
+      "title": "Tune It",
+      "tech": "React, HTML, SCSS, JavaScript"
+    },
+    "see_site": "Se siden"
+  },
+  "certificates": {
+    "title": "Certifikater",
+    "description": "Her kan du se mine opnåede certifikater og badges",
+    "google_ai": {
+      "title": "Google AI Professional",
+      "date": "Coursera, 2026"
+    },
+    "see_cert": "Se bevis"
+  },
+  "education": {
+    "title": "Uddannelse & Erfaring",
+    "description": "Her er et lille indblik i min rejse mod at blive webudvikler",
+    "customize_plus": {
+      "title": "Customize PLUS Simonsen, Randers",
+      "date": "April 2025 - Juli 2025",
+      "type": "Praktikforløb",
+      "l1": "Opdatering af produktliste",
+      "l2": "Opdatering / Vedligeholdelse af hjemmeside",
+      "l3": "Assisterende UX/UI designer på Studietøj.dk"
+    },
+    "viden_djurs": {
+      "title": "Viden Djurs, Grenaa",
+      "date": "August 2021 - Oktober 2022",
+      "type": "Hovedforløbet | WebIT Grenaa",
+      "desc_html": "Da jeg blev færdig med grundforløbet, var det ikke muligt at fortsætte med hovedforløbet på <i>Aarhus Tech</i>. <br />Derfor endte jeg med at læse hovedforløbet på <i>Viden Djurs</i> i Grenaa. <br />Inden da startede jeg sammen med en studiekammerat på hovedforløbet i Aalborg, men vi skiftede hurtigt til Grenaa, da vi ikke syntes, undervisningen var god nok. <br />Det viste sig at være en rigtig god beslutning at tage til <i>Viden Djurs</i>, og jeg sluttede uddannelsen af med et rigtig godt resultat."
+    },
+    "aarhus_tech_gf2": {
+      "title": "Aarhus Tech, Aarhus N",
+      "date": "Januar 2021 - Juni 2021",
+      "type": "Grundforløb 2 | Webudvikler",
+      "desc_html": "Grundforløb 2 foregik også på <i>Aarhus Tech</i>, men dog i en af deres andre afdelinger. <br />Her var forløbet rettet mere mod webudvikling, og her lærte jeg fundamentet for at lave hjemmesider."
+    },
+    "aarhus_tech_gf1": {
+      "title": "Aarhus Tech, Viby J",
+      "date": "August 2020 - Januar 2021",
+      "type": "Grundforløb 1 | IT, Medie & Teknologi",
+      "desc_html": "Efter efterskolen startede jeg på min ungdomsuddannelse. <br />Jeg startede ud på Grundforløb 1 af webudvikler-uddannelsen på <i>Aarhus Tech</i>. <br />Grundforløb 1 var ikke så målrettet webudvikling, men var noget, jeg skulle igennem, da jeg kom direkte fra 10. klasse. <br />Jeg lærte dog stadig noget om design og teamwork, som jeg så kunne tage med mig videre."
+    },
+    "himmerlands": {
+      "title": "Himmerlands Ungdomsskole, Aars",
+      "date": "August 2019 - Juni 2020",
+      "type": "Efterskole",
+      "desc_html": "Efter grundskolen valgte jeg at tage 10. klasse på en efterskole for at prøve noget nyt, møde nogle nye mennesker og måske også blive lidt mere selvsikker. Desværre blev det sidste halve år lidt spoleret, da covid-19 kom til, men det var stadig en fantastisk oplevelse."
+    },
+    "djurs": {
+      "title": "Djurs Sommerland, Nimtofte",
+      "date": "Maj 2019 - Oktober 2021",
+      "type": "Sæsonansat",
+      "l1": "Tilberedning- og servering af Fast Food",
+      "l2": "Bemanding af kasse",
+      "l3": "Kontakt- og servicemindet overfor kunder"
+    },
+    "fitness": {
+      "title": "Fitness World, Randers",
+      "date": "August 2018 - Juni 2019",
+      "type": "Børnepasser",
+      "l1": "Pasning af børn 2 timer om ugen",
+      "l2": "Kontakt med børn"
+    },
+    "randers_freja": {
+      "title": "Randers Freja Atletik, Randers",
+      "date": "August 2017 - Juni 2019",
+      "type": "Frivillig atletiktræner",
+      "l1": "Træning af børn i alderen 6-9 år",
+      "l2": "1,5 time om ugen",
+      "l3": "Ansvar for andre",
+      "l4": "Kontakt med børn"
+    },
+    "fk_dist": {
+      "title": "FK Distribution, Randers",
+      "date": "April 2016 - Marts 2018",
+      "type": "Reklameomdeler",
+      "l1": "Første indblik på arbejdsmarkedet",
+      "l2": "2-3 timer om ugen",
+      "l3": "Selvstændighed",
+      "l4": "Lære at udførre en tildelt opgave"
+    },
+    "la_cours": {
+      "title": "C. la Cours Skole, Randers",
+      "date": "August 2009 - Juni 2019",
+      "type": "Grundskolen",
+      "desc_html": "Hele grundskolen fra 0.-9. klasse gik jeg på <i>C. la Cours Skole</i> - en privatskole i Randers."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Du er altid velkommen til at udfylde formularen, så vil jeg vende tilbage hurtigst muligt.",
+    "name": "Navn",
+    "email": "Email",
+    "message": "Besked",
+    "send": "Send",
+    "placeholder_name": "Skriv dit navn",
+    "placeholder_email": "Skriv din email",
+    "placeholder_message": "Skriv din besked",
+    "error_required": "Udfyld venligst alle påkrævede felter.",
+    "error_email": "Udfyld venligst en gyldig email.",
+    "sending": "Sender besked...",
+    "success": "Din besked er sendt! Jeg vender tilbage hurtigst muligt.",
+    "error_send": "Der opstod en fejl. Prøv venligst igen senere."
+  },
+  "footer": {
+    "made_by": "Lavet af"
+  },
+  "page_pdf": {
+    "download": "Download Hjemmeside PDF",
+    "pc_only": "Kun på PC"
+  }
+}

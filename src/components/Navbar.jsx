@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/navbar.scss";
+import { useTranslation } from "react-i18next";
 
 // IMAGES
 import myPortrait from "../img/my-portrait.jpg";
@@ -10,11 +11,18 @@ import { CgClose } from "react-icons/cg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
+
   // Burger menu
   const [isActive, setIsActive] = useState(false);
 
   const toggleBurger = () => {
     setIsActive(!isActive);
+  };
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "da" ? "en" : "da";
+    i18n.changeLanguage(newLang);
   };
 
   return (
@@ -29,16 +37,24 @@ const Navbar = () => {
 
         <ul>
           <li>
-            <a href='#about'>Om</a>
+            <a href='#about'>{t("navbar.about")}</a>
           </li>
           <li>
-            <a href='#projects'>Projekter</a>
+            <a href='#projects'>{t("navbar.projects")}</a>
           </li>
           <li>
-            <a href='#education'>Uddannelse & Erfaring</a>
+            <a href='#certificates'>{t("navbar.certificates")}</a>
           </li>
           <li>
-            <a href='#contact'>Kontakt</a>
+            <a href='#education'>{t("navbar.education")}</a>
+          </li>
+          <li>
+            <a href='#contact'>{t("navbar.contact")}</a>
+          </li>
+          <li>
+            <button className='lang-toggle' onClick={toggleLanguage}>
+              {t("navbar.lang_toggle")}
+            </button>
           </li>
         </ul>
 
@@ -54,16 +70,41 @@ const Navbar = () => {
           </a>
 
           <li>
-            <a href='#about'>Om</a>
+            <a href='#about' onClick={toggleBurger}>
+              {t("navbar.about")}
+            </a>
           </li>
           <li>
-            <a href='#projects'>Projekter</a>
+            <a href='#projects' onClick={toggleBurger}>
+              {t("navbar.projects")}
+            </a>
           </li>
           <li>
-            <a href='#education'>Uddannelse & Erfaring</a>
+            <a href='#certificates' onClick={toggleBurger}>
+              {t("navbar.certificates")}
+            </a>
           </li>
           <li>
-            <a href='#contact'>Kontakt</a>
+            <a href='#education' onClick={toggleBurger}>
+              {t("navbar.education")}
+            </a>
+          </li>
+          <li>
+            <a href='#contact' onClick={toggleBurger}>
+              {t("navbar.contact")}
+            </a>
+          </li>
+
+          <li>
+            <button
+              className='lang-toggle-mobile'
+              onClick={() => {
+                toggleLanguage();
+                toggleBurger();
+              }}
+            >
+              {t("navbar.lang_toggle")}
+            </button>
           </li>
 
           <li>

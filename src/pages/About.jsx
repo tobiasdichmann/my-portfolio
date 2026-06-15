@@ -1,35 +1,31 @@
 import React from "react";
 import "../styles/about.scss";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div id='about'>
-      <h3>Om Mig</h3>
+      <h3>{t('about.title')}</h3>
 
       <div className='divider'></div>
 
-      <p>Her kan du finde lidt information om, hvem jeg er, og hvad jeg kan</p>
+      <p>{t('about.description')}</p>
 
       <div className='about-content'>
         <div className='about-txt'>
-          <h4>Hvem er jeg?</h4>
+          <h4>{t('about.who_am_i')}</h4>
 
-          <p>
-            Jeg er <b>uddannet webudvikler</b> med fokus på <b>frontend</b>.
-            <br />
-            Jeg koder hovedsageligt i <b>React.js</b> og med <b>SCSS</b> til
-            styling. I min fritid kan jeg godt lide at være sammen med mine{" "}
-            <b>venner</b>, spille <b>trommer</b> og ellers bare slappe af foran{" "}
-            <b>computeren</b>
-          </p>
+          <p dangerouslySetInnerHTML={{ __html: t('about.intro_html') }}></p>
 
           <a href='#contact'>
-            <button>Kontakt</button>
+            <button>{t('about.contact')}</button>
           </a>
         </div>
 
         <div className='skills-content'>
-          <h4>Jeg har erfaring med:</h4>
+          <h4>{t('about.skills')}</h4>
 
           <div className='skills'>
             <div>HTML</div>

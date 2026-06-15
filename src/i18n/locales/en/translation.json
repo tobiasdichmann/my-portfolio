@@ -1,0 +1,147 @@
+{
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "education": "Education & Experience",
+    "contact": "Contact",
+    "lang_toggle": "DA"
+  },
+  "home": {
+    "title": "Hi, I'm Tobias Skak Dichmann",
+    "subtitle": "Educated web developer focusing on frontend",
+    "projects": "Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Here you can find some information about who I am and what I can do",
+    "who_am_i": "Who am I?",
+    "intro_html": "I am an <b>educated web developer</b> focusing on <b>frontend</b>.<br/>I mainly code in <b>React.js</b> and use <b>SCSS</b> for styling. In my spare time I like to hang out with my <b>friends</b>, play <b>drums</b> and otherwise just relax in front of the <b>computer</b>",
+    "contact": "Contact",
+    "skills": "I have experience with:"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of the projects I have made / worked on over time",
+    "customize_plus": {
+      "title": "Customize Plus Simonsen",
+      "tech": "Shopify, HTML, CSS"
+    },
+    "studietoej": {
+      "title": "Studietøj",
+      "tech": "UI/UX"
+    },
+    "tune_it": {
+      "title": "Tune It",
+      "tech": "React, HTML, SCSS, JavaScript"
+    },
+    "see_site": "See website"
+  },
+  "certificates": {
+    "title": "Certificates",
+    "description": "Here you can see my obtained certificates and badges",
+    "google_ai": {
+      "title": "Google AI Professional",
+      "date": "Coursera, 2026"
+    },
+    "see_cert": "View certificate"
+  },
+  "education": {
+    "title": "Education & Experience",
+    "description": "Here is a small glimpse into my journey to becoming a web developer",
+    "customize_plus": {
+      "title": "Customize PLUS Simonsen, Randers",
+      "date": "April 2025 - July 2025",
+      "type": "Internship",
+      "l1": "Updating product list",
+      "l2": "Website update / maintenance",
+      "l3": "Assisting UX/UI designer for Studietøj.dk"
+    },
+    "viden_djurs": {
+      "title": "Viden Djurs, Grenaa",
+      "date": "August 2021 - October 2022",
+      "type": "Main Course | WebIT Grenaa",
+      "desc_html": "When I finished the basic course, it was not possible to continue with the main course at <i>Aarhus Tech</i>. <br />Therefore I ended up taking the main course at <i>Viden Djurs</i> in Grenaa. <br />Before that, a classmate and I started the main course in Aalborg, but we quickly switched to Grenaa as we did not think the teaching was good enough. <br />It turned out to be a really good decision to go to <i>Viden Djurs</i>, and I finished my education with a very good result."
+    },
+    "aarhus_tech_gf2": {
+      "title": "Aarhus Tech, Aarhus N",
+      "date": "January 2021 - June 2021",
+      "type": "Basic Course 2 | Web Developer",
+      "desc_html": "Basic Course 2 also took place at <i>Aarhus Tech</i>, but in one of their other departments. <br />Here the course was aimed more towards web development, and I learned the fundamentals of making websites."
+    },
+    "aarhus_tech_gf1": {
+      "title": "Aarhus Tech, Viby J",
+      "date": "August 2020 - January 2021",
+      "type": "Basic Course 1 | IT, Media & Technology",
+      "desc_html": "After continuation school, I started my youth education. <br />I started on Basic Course 1 of the web developer education at <i>Aarhus Tech</i>. <br />Basic Course 1 was not so targeted at web development, but was something I had to go through, as I came straight from 10th grade. <br />However, I still learned something about design and teamwork, which I could then take with me."
+    },
+    "himmerlands": {
+      "title": "Himmerlands Ungdomsskole, Aars",
+      "date": "August 2019 - June 2020",
+      "type": "Continuation School",
+      "desc_html": "After primary school I chose to take 10th grade at a continuation school to try something new, meet some new people and perhaps also become a little more confident. Unfortunately the last half year was a bit spoiled when covid-19 arrived, but it was still a fantastic experience."
+    },
+    "djurs": {
+      "title": "Djurs Sommerland, Nimtofte",
+      "date": "May 2019 - October 2021",
+      "type": "Seasonal worker",
+      "l1": "Preparation and serving of Fast Food",
+      "l2": "Cash register staffing",
+      "l3": "Contact and service minded towards customers"
+    },
+    "fitness": {
+      "title": "Fitness World, Randers",
+      "date": "August 2018 - June 2019",
+      "type": "Babysitter",
+      "l1": "Looking after children 2 hours a week",
+      "l2": "Contact with children"
+    },
+    "randers_freja": {
+      "title": "Randers Freja Atletik, Randers",
+      "date": "August 2017 - June 2019",
+      "type": "Volunteer athletics coach",
+      "l1": "Training children aged 6-9 years",
+      "l2": "1.5 hours a week",
+      "l3": "Responsibility for others",
+      "l4": "Contact with children"
+    },
+    "fk_dist": {
+      "title": "FK Distribution, Randers",
+      "date": "April 2016 - March 2018",
+      "type": "Advertising distributor",
+      "l1": "First insight into the labor market",
+      "l2": "2-3 hours a week",
+      "l3": "Independence",
+      "l4": "Learning to carry out an assigned task"
+    },
+    "la_cours": {
+      "title": "C. la Cours Skole, Randers",
+      "date": "August 2009 - June 2019",
+      "type": "Primary school",
+      "desc_html": "I attended <i>C. la Cours Skole</i> - a private school in Randers - for my entire primary school from 0th to 9th grade."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "You are always welcome to fill out the form, and I will get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "placeholder_name": "Enter your name",
+    "placeholder_email": "Enter your email",
+    "placeholder_message": "Enter your message",
+    "error_required": "Please fill out all required fields.",
+    "error_email": "Please enter a valid email.",
+    "sending": "Sending message...",
+    "success": "Your message has been sent! I will get back to you as soon as possible.",
+    "error_send": "An error occurred. Please try again later."
+  },
+  "footer": {
+    "made_by": "Made by"
+  },
+  "page_pdf": {
+    "download": "Download Website PDF",
+    "pc_only": "Only on PC"
+  }
+}

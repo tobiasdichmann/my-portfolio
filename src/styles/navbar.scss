@@ -43,6 +43,7 @@
 
   ul {
     display: flex;
+    align-items: center;
 
     li {
       margin-right: 50px;
@@ -97,7 +98,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
   .desktop-menu {
     padding: 0 25px;
 
@@ -132,7 +133,7 @@
     width: 100vw;
     background-color: white;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     animation: burger-menu-show 0.3s;
 
     display: flex;
@@ -253,5 +254,44 @@
         right: 26px;
       }
     }
+  }
+}
+
+.lang-toggle {
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
+}
+
+.lang-toggle-mobile {
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  animation: burger-list-show 0.5s;
+
+  &:hover {
+    background: black;
+    color: white;
   }
 }

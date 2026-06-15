@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/projects.scss";
+import { useTranslation } from "react-i18next";
 
 // IMAGES
 import customizePlusSimonsen from "../img/projects/customize-plus-simonsen.png";
@@ -10,13 +11,15 @@ import tuneIt from "../img/projects/tune-it.png";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <div id='projects'>
-      <h3>Projekter</h3>
+      <h3>{t('projects.title')}</h3>
 
       <div className='divider'></div>
 
-      <p>Her ser du de projekter, jeg har fået lavet igennem tiden</p>
+      <p>{t('projects.description')}</p>
 
       <div className='projects'>
         {/* Customize Plus Simonsen */}
@@ -26,15 +29,15 @@ const Projects = () => {
           </div>
 
           <div className='project-info'>
-            <h4>Customize Plus Simonsen</h4>
-            <p>Shopify, HTML, CSS</p>
+            <h4>{t('projects.customize_plus.title')}</h4>
+            <p>{t('projects.customize_plus.tech')}</p>
             <a
               href='https://c-ps.dk/'
               target='_blank'
               rel='noopener noreferrer'
               className='project-link'
             >
-              Se siden <GoArrowUpRight />
+              {t('projects.see_site')} <GoArrowUpRight />
             </a>
           </div>
         </div>
@@ -46,15 +49,15 @@ const Projects = () => {
           </div>
 
           <div className='project-info'>
-            <h4>Studietøj</h4>
-            <p>UI/UX</p>
+            <h4>{t('projects.studietoej.title')}</h4>
+            <p>{t('projects.studietoej.tech')}</p>
             <a
               href='https://studietoej.dk/'
               target='_blank'
               rel='noopener noreferrer'
               className='project-link'
             >
-              Se siden <GoArrowUpRight />
+              {t('projects.see_site')} <GoArrowUpRight />
             </a>
           </div>
         </div>
@@ -66,15 +69,15 @@ const Projects = () => {
           </div>
 
           <div className='project-info'>
-            <h4>Tune It</h4>
-            <p>React, HTML, SCSS, JavaScript</p>
+            <h4>{t('projects.tune_it.title')}</h4>
+            <p>{t('projects.tune_it.tech')}</p>
             <a
               href='https://www.tune-it.dk/'
               target='_blank'
               rel='noopener noreferrer'
               className='project-link'
             >
-              Se siden <GoArrowUpRight />
+              {t('projects.see_site')} <GoArrowUpRight />
             </a>
           </div>
         </div>

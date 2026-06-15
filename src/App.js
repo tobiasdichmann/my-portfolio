@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Certificates from "./pages/Certificates";
 import Education from "./pages/Education";
 import Contact from "./pages/Contact";
 
@@ -25,6 +26,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Certificates />
       <Education />
       <Contact />
 

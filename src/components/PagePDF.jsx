@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/loader.scss";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+import { useTranslation } from "react-i18next";
 
 // COMPONENTS
 import Loader from "./Loader";
@@ -10,11 +11,12 @@ import Loader from "./Loader";
 import { FaFileDownload } from "react-icons/fa";
 
 const PagePDF = ({ rootElementId, downloadFileName }) => {
+  const { t } = useTranslation();
   const [isGenerating, setIsGenerating] = useState(false);
 
   const handleDownloadPdf = async () => {
-    setIsGenerating(true); // 👈 Show the loader
-    console.log("Loading started. isGenerating:", true); // 👈 Add this line
+    setIsGenerating(true); // Show the loader
+    console.log("Loading started. isGenerating:", true); // Add this line
     // 1. Get the HTML element you want to convert
     const input = document.getElementById(rootElementId);
     if (!input) {
@@ -57,8 +59,8 @@ const PagePDF = ({ rootElementId, downloadFileName }) => {
     // 6. Save the PDF file
     pdf.save(downloadFileName);
 
-    setIsGenerating(false); // 👈 Hide the loader when done
-    console.log("Loading ended. isGenerating:", false); // 👈 Add this line
+    setIsGenerating(false); // Hide the loader when done
+    console.log("Loading ended. isGenerating:", false); // Add this line
   };
 
   return (
@@ -70,8 +72,8 @@ const PagePDF = ({ rootElementId, downloadFileName }) => {
           <FaFileDownload className="download-logo" />
         )}
         <div>
-          <p>Download Website PDF</p>
-          <i>Kun på PC</i>
+          <p>{t('page_pdf.download')}</p>
+          <i>{t('page_pdf.pc_only')}</i>
         </div>
       </button>
     </>

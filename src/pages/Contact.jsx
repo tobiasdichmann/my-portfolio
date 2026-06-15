@@ -1,11 +1,13 @@
 import React, { useRef, useState } from "react";
 import "../styles/contact.scss";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const form = useRef();
   const [statusMessage, setStatusMessage] = useState("");
   const [isError, setIsError] = useState(false);
+  const { t } = useTranslation();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,18 +22,18 @@ const Contact = () => {
       emailInput.validity.valueMissing ||
       messageInput.validity.valueMissing
     ) {
-      setStatusMessage("Udfyld venligst alle påkrævede felter.");
+      setStatusMessage(t('contact.error_required'));
       setIsError(true);
       return;
     }
 
     if (emailInput.validity.typeMismatch) {
-      setStatusMessage("Udfyld venligst en gyldig email.");
+      setStatusMessage(t('contact.error_email'));
       setIsError(true);
       return;
     }
 
-    setStatusMessage("Sender besked...");
+    setStatusMessage(t('contact.sending'));
     setIsError(false);
 
     emailjs
@@ -40,9 +42,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          setStatusMessage(
-            "Din besked er sendt! Jeg vender tilbage hurtigst muligt.",
-          );
+          setStatusMessage(t('contact.success'));
           setIsError(false);
           e.target.reset();
 
@@ -53,7 +53,7 @@ const Contact = () => {
         },
         (error) => {
           console.log("Message couldn't send...", error.text);
-          setStatusMessage("Der opstod en fejl. Prøv venligst igen senere.");
+          setStatusMessage(t('contact.error_send'));
           setIsError(true);
         },
       );
@@ -61,46 +61,43 @@ const Contact = () => {
 
   return (
     <div id='contact'>
-      <h3>Kontakt</h3>
+      <h3>{t('contact.title')}</h3>
 
       <div className='divider'></div>
 
-      <p>
-        Du er altid velkommen til at udfylde formularen, så vil jeg vende
-        tilbage hurtigst muligt.
-      </p>
+      <p>{t('contact.description')}</p>
 
       <form ref={form} onSubmit={sendEmail} noValidate>
         <label htmlFor='name'>
-          Navn <span className='required'>*</span>
+          {t('contact.name')} <span className='required'>*</span>
         </label>
         <input
           type='text'
           name='user_name'
           id='name'
-          placeholder='Skriv dit navn'
+          placeholder={t('contact.placeholder_name')}
           required
         />
         <label htmlFor='email'>
-          Email <span className='required'>*</span>
+          {t('contact.email')} <span className='required'>*</span>
         </label>
         <input
           type='email'
           name='user_email'
           id='email'
-          placeholder='Skriv din email'
+          placeholder={t('contact.placeholder_email')}
           required
         />
         <label htmlFor='message'>
-          Besked <span className='required'>*</span>
+          {t('contact.message')} <span className='required'>*</span>
         </label>
         <textarea
           name='message'
           id='message'
-          placeholder='Skriv din besked'
+          placeholder={t('contact.placeholder_message')}
           required
         />
-        <input type='submit' value='Send' />
+        <input type='submit' value={t('contact.send')} />
 
         {statusMessage && (
           <div className={`status-message ${isError ? "error" : "success"}`}>
