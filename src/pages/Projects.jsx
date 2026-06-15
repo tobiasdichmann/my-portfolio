@@ -28,15 +28,14 @@ const Projects = () => {
           <div className='project-info'>
             <h4>Customize Plus Simonsen</h4>
             <p>Shopify, HTML, CSS</p>
-            <button>
-              <a
-                href='https://c-ps.dk/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Se siden <GoArrowUpRight />
-              </a>
-            </button>
+            <a
+              href='https://c-ps.dk/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='project-link'
+            >
+              Se siden <GoArrowUpRight />
+            </a>
           </div>
         </div>
 
@@ -49,15 +48,14 @@ const Projects = () => {
           <div className='project-info'>
             <h4>Studietøj</h4>
             <p>UI/UX</p>
-            <button>
-              <a
-                href='https://studietoej.dk/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Se siden <GoArrowUpRight />
-              </a>
-            </button>
+            <a
+              href='https://studietoej.dk/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='project-link'
+            >
+              Se siden <GoArrowUpRight />
+            </a>
           </div>
         </div>
 
@@ -70,15 +68,14 @@ const Projects = () => {
           <div className='project-info'>
             <h4>Tune It</h4>
             <p>React, HTML, SCSS, JavaScript</p>
-            <button>
-              <a
-                href='https://www.tune-it.dk/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Se siden <GoArrowUpRight />
-              </a>
-            </button>
+            <a
+              href='https://www.tune-it.dk/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='project-link'
+            >
+              Se siden <GoArrowUpRight />
+            </a>
           </div>
         </div>
       </div>
